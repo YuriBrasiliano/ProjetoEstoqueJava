@@ -7,7 +7,8 @@
 <body>
     <center>
         <table border="1">
-            <form action="ServletProdutos?cmd=inc" method="post">
+            <form action="ServletProduto" method="post">
+            <input type = "hidden" name ="cmd" value="incluir"> <br />
             <tbody>
                 <tr>
                     <th colspan="2"><h2>Incluir Produto</h2></th>
